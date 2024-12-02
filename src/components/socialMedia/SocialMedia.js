@@ -44,6 +44,30 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.orcid ? (
+        <a
+          href={socialMediaLinks.orcid}
+          className="icon-button orcid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-orcid"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.googleScholar ? (
+        <a
+          href={socialMediaLinks.googleScholar}
+          className="icon-button googleScholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-google"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gitlab ? (
         <a
           href={socialMediaLinks.gitlab}

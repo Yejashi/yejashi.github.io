@@ -36,7 +36,9 @@ const socialMediaLinks = {
   github: "https://github.com/Yejashi/",
   linkedin: "https://www.linkedin.com/in/befikir/",
   gmail: "befikirteferi@gmail.com",
-  gitlab: "https://gitlab.com/yejashi",
+  orcid: "https://orcid.org/0000-0003-1007-9384",
+  googleScholar: "https://scholar.google.com/citations?user=RRQgMm8AAAAJ&hl=en&oi=ao",
+//   gitlab: "https://gitlab.com/yejashi",
 //   facebook: "https://www.facebook.com/saad.pasta7",
 //   medium: "https://medium.com/@saadpasta",
 //   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -48,16 +50,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Technical Skills",
+//   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    // emoji(
+    //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    // ),
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,59 +67,39 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "HPC",
+      fontAwesomeClassname: "fa fa-server"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C",
+      fontAwesomeClassname: "fa fa-code"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C++",
+      fontAwesomeClassname: "fa fa-laptop-code"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Bash",
+      fontAwesomeClassname: "fa fa-terminal"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "HTML",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -126,24 +108,36 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Tennessee",
+      logo: require("./assets/images/UT_Knoxville_logo.svg.png"),
+      subHeader: "Doctorate in Computer Science",
+      duration: "August 2024 - Present",
+    //   desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Conducting research in performance optimization/analysis in High Performance Computing",
+        "Collaborating with national laboratories as a Graduate Research Assistant"
+      ]
+    },    {
+      schoolName: "University of Tennessee",
+      logo: require("./assets/images/UT_Knoxville_logo.svg.png"),
+      subHeader: "Bachelor's of Science in Computer Science",
+      duration: "August 2020 - May 2024",
+    //   desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Graduated Summa Cum Laude",
+        "Participated in undergraduate research in High Performance Computing",
+        "Collaborated with various national laboratories in research",
+        "Relevant Courses: Data Structures I&II, Computer Architecture, Systems Programming"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -153,17 +147,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
+      Stack: "Programming",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "High Performance Computing", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Performance Analysis",
       progressPercentage: "60%"
-    }
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,30 +168,62 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Graduate Research Assistant",
+      company: "Global Computing Laboratory",
+      companylogo: require("./assets/images/global_computing_laboratory_logo.jpg"),
+      date: "Aug 2024 – Present",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developing a methodology to analyze performance variations across different compilers and compiler options using the RAJA Performance Suite",
+        "Utilizing LLNL-hosted supercomputers to conduct research and performance analysis",
+        "Collaborating with LLNL, participating in weekly meetings, and deliver milestone reports and software tools to enhance performance optimization efforts",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Graduate Computing Scholar",
+      company: "Lawrence Livemore National Laboratory",
+      companylogo: require("./assets/images/lawrence_livermore_national_laboratory_logo.jpg"),
+      date: "May 2024 – Aug 2024",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Developed a cluster-based methodology to assess performance portability using the RAJA Performance Suite across hardware platforms",
+        "Utilized Intel’s top-down pipeline and advanced clustering techniques to categorize computational kernels based on performance characteristics",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Undergraduate Research Assistant",
+      company: "Global Computing Laboratory",
+      companylogo: require("./assets/images/global_computing_laboratory_logo.jpg"),
+      date: "Oct 2022 – May 2024",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Developed software for several high-performance computing projects with C/C++, Python, etc. to achieve optimal performance optimizations",
+        "Improved the reproducibility and scalability of high-performance computing applications through the development of containerized images through the Apptainer and Docker platforms",
+        "Collaborated with Los Alamos National Laboratory, Argonne National Laboratory, and Lawrence Livermore National Laboratory on various projects"
+      ]
+    },
+    {
+      role: "Parallel Computing Intern",
+      company: "Los Alamos National Laboratory",
+      companylogo: require("./assets/images/los_alamos_national_laboratory_logo.jpg"),
+      date: "Jun 2023 – Aug 2023",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Developed proxy applications on the acceleration of X-ray transport simulations on supercomputers by implementing targeted performance optimizations, focusing on on-node efficiency",
+        "Ensured code portability by leveraging Kokkos , allowing effortless migration across GPU and CPU architectures and facilitating deployment on diverse high-performance computing clusters"
+      ]
+    },
+    // {
+    //   role: "Office Assistant",
+    //   company: "University of Tennessee",
+    //   companylogo: require("./assets/images/UT_Knoxville_logo.svg.png"),
+    //   date: "Oct 2022 – May 2024",
+    // //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   descBullets: [
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   ]
+    // },
   ]
 };
 
@@ -206,7 +232,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +265,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +326,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +350,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +369,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +382,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,16 +397,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel free to reach out to me, whether it be professional or personal",
+//   number: "+92-0000000000",
+//   email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
