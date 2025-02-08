@@ -1,0 +1,35 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# Job designation
+designation: Graduate Research Assistant
+# Company Information
+company:
+  name: Global Computing Lab
+  url: https://globalcomputing.group/
+
+# Personal Summary
+summary: >
+  I am a Ph.D. student in Computer Science advised by Dr. Michela Taufer at the University of Tennessee, Knoxville.
+  I received my Bachelors in Computer Science in Spring 2024 from UTK.
+  My research interests are developing tools for performance analysis in High Performance Computing (HPC) environments.
+
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "bbogale@vols.utk.edu"
+  - name: GitHub
+    icon: "fab fa-github"
+    url: "https://github.com/yejashi"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/befikir/"
+
+resourceLinks:
+  - title: My CV
+    url: files/befikir_cv.pdf # Path should be relative to the "static" directory
