@@ -22,9 +22,6 @@ projects:
     summary: >
       Thicket is a Python-based toolkit for analyzing ensemble performance data. It is also built on
       top of Hatchet, allowing for the same benefits that Hatchet provides.
-
-      My work on Thicket centers around the Call Path Query Language I created for Hatchet as well
-      as general software engineering work.
     tags: ["gclab", "llnl"]
   - name: Hatchet
     logo: /images/sections/projects/hatchet_logo.png
@@ -36,9 +33,6 @@ projects:
       different HPC profilers. Its main advantage over other tools is that it is capable of
       ingesting data from different profilers into a common representation, allowing users to
       use the same code to analyze performance data from different sources.
-
-      My work on Hatchet centers around the Call Path Query Language, which enables users to filter
-      profiles based on caller-callee relationships.
     tags: ["gclab", "llnl"]
   - name: ANACIN-X 
     logo: /images/sections/projects/thicket_logo.png
