@@ -7,6 +7,15 @@ section:
 
 accomplishments:
   - name: Student Volunteer
+    timeline: "November 2025"
+    organization:
+      name: >
+        2025 ACM/IEEE International Conference for High
+        Performance Computing, Networking, Storage, and Analysis (SC)
+      url: https://sc25.supercomputing.org/
+    courseOverview: >
+      Served as the Lead Student Volunteer for workshops at SC25
+  - name: Student Volunteer
     timeline: "November 2024"
     organization:
       name: >
