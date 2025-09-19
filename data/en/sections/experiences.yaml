@@ -18,7 +18,7 @@ experiences:
             Building an LLVM pass plugin to expose compiler remark information to annotation profiling tools like Caliper
           - >
             Conducting performance analysis to evaluate the impact of different compilers and optimization levels on application performance
-      - designation: Graduate Research Assistant
+      - designation: Undergraduate Research Assistant
         start: Oct 2022
         end: May 2024
         responsibilities:
@@ -35,7 +35,15 @@ experiences:
       # url:
       location: Livermore, CA
     positions:
-      - designation: Graduate Computing Summer Intern
+      - designation: Defense Science and Technology Internship
+        start: May 2025
+        end: Aug 2025
+        responsibilities:
+          - >
+            Developed a lightweight, general approach exposing compiler optimization provenance at runtime, which integrates with existing profiling infrastructure such as Caliper, and programmatic analysis with Thicket
+          - >
+            Validated this approach on the RAJA Performance Suite across optimization levels, demonstrating how fusing compiler and runtime perspectives enables evidence-guided optimization for performance portability
+      - designation: Graduate Computing Scholar Internship
         start: May 2024
         end: Aug 2024
         responsibilities:
