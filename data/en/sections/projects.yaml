@@ -14,6 +14,17 @@ buttons:
     filter: "llnl"
 
 projects:
+  - name:  Correlating Compiler Optimizations with Runtime Performance
+    logo: /images/sections/projects/llvm_logo.jpg
+    role: Developer and Researcher
+    timeline: "Jan 2024 - Present"
+    repo: https://github.com/LLNL/thicket
+    summary: >
+      This project develops a methodology to connect compiler optimization decisions with runtime performance 
+      for performance-portability libraries like RAJA. It integrates compiler optimization data directly into 
+      runtime profiles so developers can see how specific optimizations affect execution. We demonstrate the 
+      approach using kernels from the RAJA Performance Suite.
+    tags: ["gclab", "llnl"]
   - name: Thicket 
     logo: /images/sections/projects/thicket_logo.png
     role: Developer and Researcher
@@ -35,7 +46,7 @@ projects:
       use the same code to analyze performance data from different sources.
     tags: ["gclab", "llnl"]
   - name: ANACIN-X 
-    logo: /images/sections/projects/thicket_logo.png
+    logo: /images/sections/projects/anacinx.png
     role: Developer and Researcher
     timeline: "Oct 2022 - May 2024"
     repo: https://github.com/TauferLab/ANACIN-X
