@@ -1,0 +1,27 @@
+section:
+  name: Posters
+  id: papers
+  template: sections/publications.html
+  enable: true
+  weight: 7
+  showOnNavbar: true
+
+
+publications:
+  - title: "Cluster-Based Methodology for Characterizing the Performance of Portable Application"
+    publishedIn:
+      name: 2024 Student Research Competition at SC'24
+      url: https://sc24.supercomputing.org/program/posters/acm-student-research-competition/
+    authors:
+      - name: Befikir Bogale
+        url: https://www.linkedin.com/in/befikir/
+      - name: Olga Pearce
+        url: https://www.linkedin.com/in/olgapearce/
+      - name: Michela Taufer
+        url: https://globalcomputing.group/about.html
+      - name: Tom Scogland
+        url: https://www.linkedin.com/in/tom-scogland-846b33b/
+    paper:
+      summary: >
+        This work focuses on performance portability and proposes a methodological approach to assessing and explaining how different kernels behave across various hardware architectures using the RAJA Performance Suite (RAJAPerf). Our methodology leverages metrics from the Intel top-down pipeline and clustering techniques to sort the kernels based on performance characteristics. We assess the methodology on 54 RAJAPerf’s computational kernels on Intel Xeon and NVIDIA V100 platforms. Our results confirm the effectiveness of our methodology in automatically characterizing performance differentials and speedups, particularly in memory-bound kernels.
+      url: https://sc24.supercomputing.org/proceedings/poster/poster_files/post158s2-file3.pdf

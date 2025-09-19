@@ -1,0 +1,76 @@
+section:
+  name: Publications
+  id: papers
+  template: sections/publications.html
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+
+publications:
+  - title: "RAJA Performance Suite: Performance Portability Analysis with Caliper and Thicket"
+    publishedIn:
+      name: 2024 International Workshop on Performance, Portability & Productivity in HPC at SC'24
+      url: https://p3hpc.org/
+    authors:
+      - name: Olga Pearce
+        url: https://www.linkedin.com/in/olgapearce/
+      - name: Jason Burmark
+      - name: Rich Hornung
+        url: https://people.llnl.gov/hornung1
+      - name: Befikir Bogale
+        url: https://www.linkedin.com/in/befikir/
+      - name: Ian Lumsden
+        url: https://ilumsden.github.io/
+      - name: Michael McKinsey
+        url: https://www.linkedin.com/in/michaelmckinsey2000/
+      - name: Dewi Yokelson
+        url: https://www.linkedin.com/in/dewi-yokelson/
+      - name: David Boehme
+        url: https://people.llnl.gov/boehme3
+      - name: Stephanie Brink
+        url: https://www.linkedin.com/in/stephanielbrink/
+      - name: Michela Taufer
+        url: https://globalcomputing.group/about.html
+      - name: Tom Scogland
+        url: https://www.linkedin.com/in/tom-scogland-846b33b/
+    paper:
+      summary: >
+        Maintaining performant code in a world of fast-evolving computer architectures and
+        programming models poses a significant challenge to scientists. Typically, benchmark
+        codes are used to model some aspects of a large application code's performance, and
+        are easier to build and run. Such benchmarks can help assess the effects of code or
+        algorithm changes, system updates, and new hardware. However, most performance benchmarks
+        are not written using a wide range of GPU programming models. The RAJA Performance Suite
+        provides a comprehensive set of computational kernels implemented in a variety of programming
+        models. We integrated the performance measurement and analysis tools Caliper and Thicket
+        into the RAJAPerf to facilitate performance comparison across kernel implementations and
+        architectures. This paper describes the RAJAPerf, performance metrics that can be collected,
+        and experimental analysis with case studies.
+      url: https://conferences.computer.org/sc-wpub/pdfs/SC-W2024-6oZmigAQfgJ1GhPL0yE3pS/555400b206/555400b206.pdf
+  - title: "Towards Affordable Reproducibility Using Scalable Capture and Comparison of Intermediate Multi-Run
+Results"
+    publishedIn:
+      name: 2024 25th ACM/IFIP International Middleware Conference
+      url: https://middleware-conf.github.io/2024/
+    authors:
+      - name: Nigel Tan
+        url: https://dl.acm.org/profile/99660929708
+      - name: Kevin Assogba
+        url: https://dl.acm.org/profile/99660648899
+      - name: Walter J. Ashworth
+        url: https://dl.acm.org/profile/99661425695
+      - name: Befikir T. Bogale
+        url: https://dl.acm.org/profile/99661050373
+      - name: Frank Capello
+        url: https://dl.acm.org/profile/81100619970
+      - name: M. Mustafa Rafique
+        url: https://dl.acm.org/profile/81467646542
+      - name: Michela Taufer
+        url: https://dl.acm.org/profile/81548008059
+      - name: Bogdan Nicolae
+        url: https://dl.acm.org/profile/81413606942
+    paper:
+      summary: >
+        Ensuring reproducibility in high-performance computing (HPC) applications is a significant challenge, particularly when nondeterministic execution can lead to untrustworthy results. Traditional methods that compare final results from multiple runs often fail because they provide sources of discrepancies only a posteriori and require substantial resources, making them impractical and unfeasible. This paper introduces an innovative method to address this issue by using scalable capture and comparing intermediate multi-run results. By capitalizing on intermediate checkpoints and hash-based techniques with user-defined error bounds, our method identifies divergences early in the execution paths. We employ Merkle trees for checkpoint data to reduce the I/O overhead associated with loading historical data. Our evaluations on the nondeterministic HACC cosmology simulation show that our method effectively captures differences above a predefined error bound and significantly reduces I/O overhead. Our solution provides a robust and scalable method for improving reproducibility, ensuring that scientific applications on HPC systems yield trustworthy and reliable results.
+      url: https://dl.acm.org/doi/10.1145/3652892.3700780

@@ -1,0 +1,27 @@
+section:
+  name: Achievements, Honors, and Scholarships
+  id: achievements
+  template: sections/accomplishments.html
+  enable: true
+  weight: 8
+  showOnNavbar: true
+
+accomplishments:
+  - name: ACM Student Research Competition Participant
+    timeline: "November 2024"
+    organization:
+      name: >
+        2024 ACM/IEEE International Conference for High
+        Performance Computing, Networking, Storage, and Analysis (SC)
+      url: https://sc24.supercomputing.org/
+    courseOverview: >
+      Participated in the Graduate Student track of the ACM Student
+      Research Competition, presenting my poster "Cluster-Based Methodology for Characterizing the Performance of Portable Applications"
+  - name: Graduate Fellowship
+    timeline: "Feburary 2025 - Present"
+    organization:
+      name: >
+        University of Tennessee, Knoxville
+      url: https://www.utk.edu
+    courseOverview: >
+      Awarded the Graduate Fellowship at the University of Tennessee, Knoxville

@@ -1,3 +1,4 @@
-module github.com/hugo-toha/toha/v4
+module github.com/Yejashi/yejashi.github.io
 
-go 1.21
+go 1.23.5
+
