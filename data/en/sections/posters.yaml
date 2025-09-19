@@ -8,6 +8,22 @@ section:
 
 
 publications:
+  - title: "An Approach for Correlating Compiler Optimizations with Runtime Performance"
+    publishedIn:
+      name: 2025 Student Research Competition at SC'25
+      url: https://sc25.supercomputing.org/program/posters/acm-student-research-competition/
+    authors:
+      - name: Befikir Bogale
+        url: https://www.linkedin.com/in/befikir/
+      - name: Olga Pearce
+        url: https://www.linkedin.com/in/olgapearce/
+      - name: Michela Taufer
+        url: https://globalcomputing.group/about.html
+      - name: Tom Scogland
+        url: https://www.linkedin.com/in/tom-scogland-846b33b/
+    paper:
+      summary: >
+       This work builds a framework to understand how compiler optimizations influence the performance of performance-portability libraries such as RAJA. By combining compiler optimization remarks with runtime profiles, it creates a unified view that links compiler decisions to their execution impact. A case study on the RAJA Performance Suite demonstrates how this approach reveals optimization requirements and performance drivers across architectures.
   - title: "Cluster-Based Methodology for Characterizing the Performance of Portable Application"
     publishedIn:
       name: 2024 Student Research Competition at SC'24
