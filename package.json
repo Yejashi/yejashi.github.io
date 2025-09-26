@@ -73,8 +73,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "autoprefixer": "postcss src/styles.css -u autoprefixer -o dist/styles.css"
+    "lint:fix": "eslint --fix ."
   },
   "version": "1.0.0"
 }
