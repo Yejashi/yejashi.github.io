@@ -31,7 +31,8 @@
       "plyr": "project",
       "popper.js": "project",
       "postcss": "project",
-      "postcss-cli": "project"
+      "postcss-cli": "project",
+      "dompurify": "^3.1.6"
     }
   },
   "dependencies": {},
