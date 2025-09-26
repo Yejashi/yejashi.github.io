@@ -74,7 +74,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "autoprefixer": "postcss assets/scss/style.css -o assets/scss/style.prefixed.css"
+    "autoprefixer": "postcss src/styles.css -u autoprefixer -o dist/styles.css"
   },
   "version": "1.0.0"
 }
