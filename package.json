@@ -31,7 +31,8 @@
       "plyr": "project",
       "popper.js": "project",
       "postcss": "project",
-      "postcss-cli": "project"
+      "postcss-cli": "project",
+      "dompurify": "^3.1.6"
     }
   },
   "description": "A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.",
