@@ -1,35 +1,30 @@
-name: Autoprefixer
+name: Build Hugo Site
 on:
   push:
     branches:
       - main
+
 jobs:
-  autoprefixer:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout to latest commit
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v5
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
 
       - name: Setup Node
         uses: actions/setup-node@v5
         with:
           node-version: "20.x"
 
-      - name: Run autoprefixer
-        run: |
-          npm install postcss postcss-cli autoprefixer --save-dev
-          npm run autoprefixer
+      - name: Install dependencies
+        run: npm install
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          branch: autoprefixer
-          branch-suffix: timestamp
-          commit-message: add vendor specific css prefixes
-          title: "Update and run autoprefixer"
-          body: |
-            This PR runs [postcss/autoprefixer](https://github.com/postcss/autoprefixer) to update vendor specific CSS prefixes.
+      - name: Build with Hugo (includes PostCSS & Autoprefixer)
+        run: hugo --gc --minify
 
-            >This PR has been created automatically by Github Action [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request).
-          labels: "enhancement,automerge"
-          reviewers: hossainemruz
