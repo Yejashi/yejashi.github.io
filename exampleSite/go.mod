@@ -1,6 +1,6 @@
 module github.com/hugo-toha/toha/exampleSite
 
-go 1.21
+go 1.23.5
 
 replace github.com/hugo-toha/toha/v4 => ../
 
